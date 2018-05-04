@@ -27,7 +27,7 @@ version: 2
           ls -lah .
 
 jobs:
-  arm:
+  arm-test:
     <<: *job_template
     environment:
       BIN_NAME: "pihole-FTL-arm-linux-gnueabi"
