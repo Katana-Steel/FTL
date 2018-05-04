@@ -62,7 +62,7 @@ workflows:
   version: 2
   build:
     jobs:
-      - arm
+      - arm-test
       - armhf
       - aarch64
       - x86_64
